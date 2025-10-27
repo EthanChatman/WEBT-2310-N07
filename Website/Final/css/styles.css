@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-    background-image: linear-gradient(rgb(73, 11, 11),rgb(0, 0, 0),rgb(37, 35, 35));
+    background-image: rgb(255, 255, 255);
 }
 
 img {
@@ -55,7 +55,7 @@ padding: 20px;
 
 h1,h2,h3 {
 text-align: center;
-color: darkred;
+color: white;
 text-shadow: 1px 1px 1px black;
 }
 

@@ -43,7 +43,6 @@ nav li a {
     display: block;
     height: 40px;
     line-height: 40px;
-    background-image: gray;
     color: black;
     font-size: 24px;
     text-decoration: none;
@@ -108,7 +107,9 @@ margin: 0;
     }
 
     nav li a {
-background-image: gray;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
     }
     
     hr {

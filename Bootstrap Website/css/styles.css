@@ -7,3 +7,7 @@ body{
    width: 50%;
     size:cover;
 }
+
+header image {
+    background-image: url("../images/persona-5-royal-phantom-thieves.avif");
+}

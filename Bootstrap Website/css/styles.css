@@ -7,7 +7,7 @@ body{
 
 /* IDs */
 
-#header img {
+#header_img {
     background-image: url("../images/P5R-Release-Art.jpg");
     background-size: cover;
     background-position: center;
@@ -15,9 +15,9 @@ body{
 }
 
 #header {
-  width:  50%;
-  height: 300px;
-  background-image: url("../images/684bd8b00abcbf6dd122727a27c01a337f667bef825f4f4662efad9854b72fd4.jpg");
+  width:  100%;
+  height: 500px;;
+  
  
 }
 

@@ -3,7 +3,8 @@ body{
     color:red;
 }
 
-#header {
+
+#header img {
   width:  50%;
   height: 300px;
   background-image: url("../images/persona-5-royal-phantom-thieves.avif");

@@ -8,7 +8,7 @@ body{
 /* IDs */
 
 #header img {
-    background-image: url(images/P5R-Release-Art.jpg);
+    background-image: url("../images/P5R-Release-Art.jpg");
     background-size: cover;
     background-position: center;
 

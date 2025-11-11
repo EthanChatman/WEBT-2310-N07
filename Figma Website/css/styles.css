@@ -13,12 +13,10 @@ body{
   margin:0;
   font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial;
   color:var(--dark);
-  background:#111;
+  background:#bff7f7;
 }
 
-.container{
-  background-color: #bff7f7;
-}
+
 
 .site-header, main, .site-footer{
   max-width:var(--container-max);

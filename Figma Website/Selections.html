@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Collections — Cookie Market</title>
+  <title>About — Cookie Market</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -12,35 +12,68 @@
       <div class="nav-left">
         <a class="logo" href="index.html">Cookie Market</a>
       </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Selections.html">Secret Selections</a></li>
-        <li><a href="Gallery.html">Gallery</a></li>
-        <li><a href="contact.html">About</a></li>
-      </ul>
+      <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="Collections.html">Discover</a>
+      <a href="Selections.html" style="color:#111; font-weight:700;">Secret Selection</a>
+      <a href="About.html">About Us</a>
     </nav>
-  </header>
 
-  <main>
-    <section class="gallery">
-      <h1>Our Gallery</h1>
-      <p class="muted">Select the cookies that make your day</p>
+    
+    <section class="hero" role="region" aria-labelledby="hero-title">
+      <div class="hero-row">
+        <div class="hero-art" aria-hidden="true">
+          
+          <img src="images/mockup.png" alt="">
+        </div>
 
-      <div class="grid">
-        <div class="grid-item"><img src="https://images.unsplash.com/photo-1606756791628-9e2e6f2f5a1f?q=80&w=800&auto=format&fit=crop" alt=""></div>
-        <div class="grid-item"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt=""></div>
-        <div class="grid-item"><img src="https://images.unsplash.com/photo-1601972596621-7f1d6c4c2b6f?q=80&w=800&auto=format&fit=crop" alt=""></div>
-        <div class="grid-item"><img src="https://images.unsplash.com/photo-1541599540903-216a46ca0619?q=80&w=800&auto=format&fit=crop" alt=""></div>
-        <div class="grid-item"><img src="https://images.unsplash.com/photo-1515488043450-4c3f3b7d5a7a?q=80&w=800&auto=format&fit=crop" alt=""></div>
-        <div class="grid-item"><img src="https://images.unsplash.com/photo-1606756791628-9e2e6f2f5a1f?q=80&w=800&auto=format&fit=crop" alt=""></div>
+        <div class="hero-text">
+          <div class="kicker">Secret Selection</div>
+          <h1 id="hero-title" class="title">Secret Selection</h1>
+          <p class="subtitle">Newest Secret Cookies entering the Market</p>
+        </div>
+      </div>
+
+      <div class="section-intro" aria-hidden="false">
+        <p class="muted">Most Popular</p>
+        <h3>Our Exclusive Cookies</h3>
+      </div>
+
+      
+      <div class="products" role="list">
+
+        <article class="card" role="listitem" aria-label="Red-Velvet Cookie">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1601972596621-7f1d6c4c2b6f?q=80&w=1400&auto=format&fit=crop" alt="Red-Velvet Cookie">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Red-Velvet Cookie</h4>
+            <div class="price-badge">$12</div>
+          </div>
+          <div class="card-actions">
+            <button class="order-btn" type="button">Order Now</button>
+          </div>
+        </article>
+
+        <article class="card" role="listitem" aria-label="Cheesecake Cookie">
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1606756791628-9e2e6f2f5a1f?q=80&w=1400&auto=format&fit=crop" alt="Cheesecake Cookie">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">Cheesecake Cookie</h4>
+            <div class="price-badge">$12</div>
+          </div>
+          <div class="card-actions">
+            <button class="order-btn" type="button">Order Now</button>
+          </div>
+        </article>
+
       </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <small>&copy; 2025 Cookie Market</small>
-    </div>
-  </footer>
+    <footer>
+      &copy; 2025 The Cookie Mart
+    </footer>
+  </div>
 </body>
 </html>

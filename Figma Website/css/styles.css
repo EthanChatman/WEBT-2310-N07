@@ -2,7 +2,7 @@
 
 :root{
   --bg-aqua:#bff7f7;
-  --dark:#111;
+  --white:#fff;
   --muted:#666;
   --card-bg:#fff;
   --container-max:1100px;
@@ -31,7 +31,7 @@ body{
 .nav-links a{color:#fff;text-decoration:none;font-size:14px;padding:6px 8px;border-radius:6px}
 .site-header.small .nav-links a{color:#fff}
 
-/* hero */
+
 .hero{
   background:var(--card-bg);
   border-radius:8px;

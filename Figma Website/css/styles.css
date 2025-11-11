@@ -1,10 +1,10 @@
-
-
 :root{
   --bg-aqua:#bff7f7;
   --white:#fff;
   --muted:#666;
   --card-bg:#fff;
+  --dark:#111;              /* restored */
+  --page-bg:#f5f5f5;        /* new page background (light grey) */
   --container-max:1100px;
 }
 
@@ -13,25 +13,24 @@ body{
   margin:0;
   font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial;
   color:var(--dark);
-  background:#bff7f7;
+  background:var(--page-bg); /* changed from aqua to light grey */
 }
 
-
-
+/* shared container */
 .site-header, main, .site-footer{
   max-width:var(--container-max);
   margin:0 auto;
   padding:0 16px;
 }
 
-
+/* nav */
 .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
 .logo{font-weight:700;text-decoration:none;color:var(--card-bg)}
 .nav-links{display:flex;gap:16px;list-style:none;padding:0;margin:0}
 .nav-links a{color:#fff;text-decoration:none;font-size:14px;padding:6px 8px;border-radius:6px}
 .site-header.small .nav-links a{color:#fff}
 
-
+/* hero */
 .hero{
   background:var(--card-bg);
   border-radius:8px;
@@ -46,9 +45,7 @@ body{
 .hero-sub{color:var(--muted);margin:0}
 .hero-art img{width:84px;height:84px;object-fit:cover;border-radius:8px}
 
-
 .btn{display:inline-block;background:#000;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-weight:600}
-
 
 .recommended{background:var(--bg-aqua);padding:28px;margin-top:16px;border-radius:8px}
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
@@ -57,14 +54,11 @@ body{
 .card .price{font-weight:700}
 .card .add{margin-top:auto;background:#111;color:#fff;border:none;padding:8px;border-radius:8px}
 
-
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .grid-item img{width:100%;height:100px;object-fit:cover;border-radius:8px}
 
-
 .about .intro,.about .services{padding:18px 0}
 .site-footer{color:#fff;padding:18px 16px;text-align:center}
-
 
 @media(min-width:768px){
   .hero{flex-direction:row;align-items:center;padding:40px;gap:20px}
@@ -73,9 +67,9 @@ body{
   .grid-item img{height:140px}
 }
 
-
 @media(min-width:1024px){
-  body{background:#222}
+  /* keep page background light grey on desktop as well */
+  body{background:var(--page-bg)}
   .site-header,.site-footer,main{padding:24px 0}
   .hero{padding:56px}
   .hero-title{font-size:48px}
@@ -83,7 +77,6 @@ body{
   .card img{height:150px}
   .grid{grid-template-columns:repeat(4,1fr)}
 }
-
 
 .muted{color:var(--muted)}
 
